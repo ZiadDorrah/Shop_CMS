@@ -1,0 +1,22 @@
+body {
+  box-sizing: border-box;
+  height: 100vh;
+}
+.search:focus {
+  border-color: #28a745 !important;
+  box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.25) !important;
+}
+.new-item,
+.used-item {
+  accent-color: green;
+}
+.footer {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  background-color: #f8f9fa;
+  color: white;
+  text-align: center;
+  padding-bottom: 10px;
+}
